@@ -87,7 +87,7 @@ function getAverageTransactionValue(user){
     }
     total = total/user.transactions.length
    
-    return console.log(total)
+    return console.log(total.toFixed(2))
 
 }
 
